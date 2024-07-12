@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export type HeroImageProps = {
   src: string;
   alt: string;
+  disabled?: boolean;
 };
 
 const StyledImage = styled.img`
